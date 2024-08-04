@@ -1,0 +1,10 @@
+<mvc:View controllerName="com.s4integtobtp.s4integratedtobtp.controller.Home"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content >
+           <Button press="GetDataFroms4" text="Get Data from S4" />
+
+        </content>
+    </Page>
+</mvc:View>
